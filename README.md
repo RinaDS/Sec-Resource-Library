@@ -1,1 +1,2 @@
 # Security-Plus-Resource-Library
+Welcome to my resource library! I am now using GitHub for my library (for a number of reasons). Here you will find PowerPoint prersentations, links to lots of videos, links to websites relevant to Sec+, eBooks, and more. I will eventually find a way to organize my materials here, but all my stuff is here. You can reach me via Discord. My server is at https://discord.gg/w67EHeUmFE. 
