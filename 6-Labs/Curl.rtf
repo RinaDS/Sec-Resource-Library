@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 Times-Roman;
+\f3\fmodern\fcharset0 Courier;\f4\froman\fcharset0 Times-BoldItalic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red251\green2\blue7;\red251\green0\blue7;
+\red0\green0\blue0;\red255\green255\blue11;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c100000\c14913\c0;\cssrgb\c100000\c12195\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c0;\cssrgb\c0\c0\c93333;}
+\margl1440\margr1440\vieww12240\viewh15840\viewkind1
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs34 \cf2 Kali ARM !Hm.o6GrbH-e.TLhtG\
+
+\fs36 \cf0 \ul \ulc0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 CURL
+\fs24 \
+\
+\cf3 \ulnone curl -h\cf0 \ul \
+\
+1. Browse HTML code\ulnone \
+\
+The most basic utility of curl is to browse the HTML code of a webpage. To do that, suffix the curl command with the web URL of the webpage.\
+\
+\cf4 curl https://example.com\
+curl https://www.secplus336.com\
+\
+\cf5 To save the output to a file, use the -o or -O switch. The lowercase options saves the the file with a predefined file name, while the uppercase option saves the file with its original filename. Basically, the lowercase option allows us to specify a file name. This is a useful option if the webpage we are trying to inspect is preventing us from right-clicking on the page to view the source code in the browser.\
+\
+\cf3 curl -o output.txt https://example.com\
+curl -o output2.txt https://www.secplus336.com\cf0 \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf5 \expnd0\expndtw0\kerning0
+\ul \ulc5 2. IP Information
+\f2\b0 \ulnone \
+You can use the following curl command to get all the network information about a machine\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 curl ipinfo.io\cf6 \
+\cf5 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2 \cf5 Alternatively, if you know the IP address and you want other details like the location co-ordinates, city, timezone, etc, you can use the following variation of the command.\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 curl ipinfo.io/14.141.173.170\cf5 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf5 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf5 \ul 3. Downloading HTTP header\
+
+\f2\b0 \ulnone BANNER GRABBING - Server info, content type, content encoding\
+ECS- Elastic Cloud Server is a basic computing unit that consists of vCPUs, memory, OS, and elastic volume service disks. After an ECU is created, you can use it on the cloud similarly to how you would use your local PC or physical server.
+\f1\b \ul \
+
+\f2\b0 \ulnone This is useful when testing a site.\ul \
+\pard\pardeftab720\sl120\slmult1\sa240\partightenfactor0
+\cf3 \ulnone curl -I https://example.com\
+curl -I https://www.secplus336.com
+\f1\b \cf5 \ul \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf5 6. Dictionary
+\f2\b0 \ulnone \
+The dict protocol provided by the libcurl can be used to easily find the meaning of a word. The source of the meaning is {\field{\*\fldinst{HYPERLINK "https://wordnet.princeton.edu/"}}{\fldrslt \cf7 \ul \ulc7 WordNet}}. Below is the command to do the same.\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf4 curl dict://dict.org/d:ephemeral\cf5 \
+\cf4 curl dict://dict.org/d:root\cf5 \
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf5 Closing Words\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f2\b0\fs24 \cf5 Curl can also be used for:\
+downloading files and even multiple files at once; emulate a browser, such as Firefox, when you want to download something and curl is blocked; transferring files; curl can be configured to use a proxy\
+curl is majorly used in programs for the sharing of data, files, forms. Apart from the above-mentioned command, there are various other APIs, combinations, or shell scripts you can use curl with. You can learn more about this on the GitHub repos or Stack Overflow. \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\i\b \cf5 \ul https://techwiser.com/useful-curl-commands/}
